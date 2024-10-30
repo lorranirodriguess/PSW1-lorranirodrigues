@@ -41,4 +41,13 @@ div {
     display: flex;
 }
 
+a:link{
+    color: antiquewhite;
+    background-color: rgb(243, 220, 204);
+    margin-top: 10px;
+}
+a:hover{
+    color: rgb(75, 33, 1);
+    background-color: rgb(230, 206, 156);
+}
 
