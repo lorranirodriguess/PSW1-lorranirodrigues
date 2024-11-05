@@ -11,12 +11,13 @@ body{
 }
 
 header{
+    font-family: fantasy;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #DAD7CD;
     padding: 1%;
-    color: black;
+    color:  #04311b;
 
     .imgtopo{
         width: 8%;
@@ -31,7 +32,7 @@ header h1 {
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: #344E41;
+    background-color:#04311b;
     color: aliceblue;
     padding: 0.5%;
 
@@ -57,13 +58,13 @@ main{
     margin: 2%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
     flex-direction: row;
 
     .conteiner{
         background-color: #DAD7CD;
         width: 65%;
-        height: 100%;
+        height: auto;
         padding: 10%;
         
         .texto{
@@ -74,25 +75,34 @@ main{
     aside{
         height: 100%;
         width: 30%;
-        background-color: #344E41;
-        padding: 10%;
+        background-color: #04311b;
+        padding: 1%;
         
+        .imgportifolio{
+            width: 100%;
+            padding: 1%;
+        }
 
     }
 }
 
 footer{
-
-    background-color: #344E41;
+    font-size: small;
+    font-family: serif;
+    text-align: center;
+    justify-content: space-between;
+    display: list-item;
+    background-color: #234333;
     width: 100%;
-    height: 50px;
-    margin: 0;
-    padding: 0;
+    height: fit-content;
+    padding: 0.5%;
 
-    .imglogo {
-    width: 10%;
+
+    #logopsw{
+        width: 5%;
+        margin: 0;
     }
-
+    
 }
 
 
