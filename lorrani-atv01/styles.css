@@ -23,6 +23,7 @@ header{
         width: 8%;
         display: flex;
     }
+
 }
 header h1 {
     text-align: center;
@@ -51,6 +52,7 @@ button{
 button:hover {
     color: black;
     background-color: #DAD7CD;
+    transition-duration: 2s;
 }
 
 main{
