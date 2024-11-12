@@ -52,7 +52,7 @@ button{
 button:hover {
     color: black;
     background-color: #DAD7CD;
-    transition-duration: 2s;
+    transition-duration: 0.5s;
 }
 
 main{
@@ -63,7 +63,7 @@ main{
     
     flex-direction: row;
 
-    .conteiner{
+    .conteudoprincipal{
         background-color: #DAD7CD;
         width: 65%;
         height: auto;
