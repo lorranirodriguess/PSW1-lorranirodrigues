@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,7 @@ header{
     color:  #04311b;
 
     .imgtopo{
-        width: 8%;
+        width: 10%;
         display: flex;
     }
 
@@ -48,6 +48,7 @@ button{
     padding: 0.4%;
     border: 1% #588157;
     background-color:#A3B18A;
+    margin: 0.5% 0.5%;
 }
 button:hover {
     color: black;
@@ -57,17 +58,18 @@ button:hover {
 
 main{
 
-    margin: 2%;
-    display: flex;
-    justify-content: space-between;
+    margin: 1%;
+    display: inline-flex;
+    justify-content: space-around;
     
-    flex-direction: row;
+    
 
     .conteudo-principal{
         background-color: #DAD7CD;
         width: 65%;
         height: auto;
         padding: 10%;
+    
         
         .texto{
             padding: 1%;
@@ -75,6 +77,8 @@ main{
     }
 
     aside{
+        display: flex;
+        flex-direction: column;
         height: 100%;
         width: 30%;
         background-color: #04311b;
@@ -103,6 +107,11 @@ footer{
     #logopsw{
         width: 5%;
         margin: 0;
+        padding: 0;
+    }
+
+    #rodape{
+        margin: 2% 1% 0% 1%;
     }
     
 }
