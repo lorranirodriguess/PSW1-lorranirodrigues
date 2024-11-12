@@ -1,0 +1,74 @@
+.titulo{
+    background-color: rgb(237, 201, 155);
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#div1{
+    background-color: rgb(93, 46, 3);
+    width: 20%;
+    height: 100%;
+}
+
+#div2{
+    background-color: rgb(213, 137, 6);
+    width: 60%;
+    height: 100%;
+}
+
+#div3{
+    background-color: rgb(124, 85, 40);
+    width: 20%;
+    height: 100%;
+}
+
+.conteudo{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#conteudo1{
+    background-color: rgb(121, 83, 45);
+    height: 100%;
+    width: 50%;
+}
+#conteudo2{
+    background-color: rgb(187, 169, 92);
+    height: 100%;
+    width: 50%;
+}
+
+.rodape{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#rodape1{
+    background-color: rgb(185, 184, 77);
+    height: 100%;
+    width: 25%;
+}
+#rodape2{
+    background-color: rgb(124, 123, 78);
+    height: 100%;
+    width: 25%;
+}
+#rodape3{
+    background-color: rgb(186, 186, 151);
+    height: 100%;
+    width: 25%;
+}
+#rodape4{
+    background-color: rgb(101, 100, 54);
+    height: 100%;
+    width: 25%;
+}
