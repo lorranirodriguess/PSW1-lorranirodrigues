@@ -63,7 +63,7 @@ main{
     
     flex-direction: row;
 
-    .conteudoprincipal{
+    .conteudo-principal{
         background-color: #DAD7CD;
         width: 65%;
         height: auto;
