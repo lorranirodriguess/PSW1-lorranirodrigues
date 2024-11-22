@@ -1,71 +1,281 @@
+
 .cabecalho{
-    background-color:#974530;
-    width: 100%;
-    height: 30%;
+  font-size: large;
+    background-color:#4f3a26;
+    padding: 1%;
     display: flex;
     justify-content: space-around;
-    color: aliceblue;
-    
+    color: #d3b082;
+    align-items: center;
+    text-align: center;
+
 }
 
-#cabecalho1 {
-    width: 100%;
-    height: 100%;
+.cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    justify-content: space-evenly;
 }
 
 ul{ 
+    font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     overflow: hidden;
-    padding: 0;
+    padding: 0.5%;
     margin: 0;
-    width: 100%;
-    height: 10%;
-    background-color:#4d0300;
+    background-color: rgb(148, 124, 63);
 }
 
 li{
-    height: 100%;
     float: left;
+    justify-content: space-between;
 }
 
 li a{
-    display: inline-block;
+    display: inline;
     text-align: center;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     padding: 16px 14px;
     text-decoration: none;
 }
 
 li a:hover{
-    background-color: #bc6547;
+    background-color:#d3b082;
+    color: black;
 }
 
 .active{
-    background-color:#bc6547;
+    background-color:#d3b082;
+    color: black;
 }
 
 .conteudo{
-    width: 100%;
-    height: 50%;
-    background-color: bisque;
-    display: flex;
+    width: auto;
+    height: auto;
+    padding: 5%;
+    background-color: #d3b082;
     justify-content: space-around;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 #cont1{
     color: black;
-    width: 70%;
-    height: 100%;
 }
 
 .rodape{
     width: 100%;
-    height: 10%;
-    background-color: rgb(220, 179, 129);
+    height: fit-content;
+    background-color: #4f3a26;
     color: aliceblue;
     display: flex;
     justify-content: space-around;
 }
+
+.conteudo{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+    padding: 1%;
+}
+
+.formulario{
+  padding: 5%;
+  margin: 0;
+  width: auto;
+  text-align: left;
+  background-color: #4f3a26;
+  color: rgb(177, 144, 59);
+  border-radius: 7%;
+}
+
+.formulario h2{
+  text-align: center;
+}
+
+form{
+    padding: 1%;
+}
+
+.informacoes1{
+  display: flex;
+  justify-content: space-between
+}
+
+.informacoes2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.informacoes21{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.informacoes4{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.informacoes5{
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #4f3a26;
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=time], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #4f3a26;
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+    input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #4f3a26;
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=file], select {
+    background-color:white;
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #4f3a26;
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #4f3a26;
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #4f3a26;
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #4f3a26;
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=url], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #4f3a26;
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=search], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #4f3a26;
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #4f3a26;
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(177, 144, 59);
+    border: none;
+    color: beige;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .rodape{
+    font-size: small;
+    font-family: serif;
+    text-align: center;
+    justify-content: space-between;
+    display: list-item;
+    background-color:#4f3a26;
+    color: beige;
+    width: 100%;
+    height: fit-content;
+    padding: 0.5%;
+
+  }
+
+
