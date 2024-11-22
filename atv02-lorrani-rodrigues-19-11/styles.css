@@ -272,7 +272,7 @@ input[type=text], select {
     display: list-item;
     background-color:#4f3a26;
     color: beige;
-    width: 100%;
+    width: auto;
     height: fit-content;
     padding: 0.5%;
 
