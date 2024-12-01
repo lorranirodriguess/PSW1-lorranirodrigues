@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    padding-bottom:1%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c6c1c;
+}
+
+.cabecalho{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+}
+
+.cabecalho h5 {
+    margin: 0%;
+    color:#adf296;
+}
+
+.cabecalho h1{
+    font-size: 2.5em;
+    margin: 0%;
+    color: #ffffff;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.logo img {
+    margin: auto;
+    width:70%;
+    height: 90%;
+}
+
+ul{
+    
+    margin: 0%;
+    padding: 0.5%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #084811;
+}
+
+li a{
+    font-size: 0.8em;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1% 0.8%;
+}
+
+li a:hover{
+    background-color:#bbc981;
+    color: black;
+    transition: 0.4s;
+}
+
+.ativo{
+    background-color:#ffffff;
+    color: black;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+
+.conteudo{
+    background-color:#bbc981;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    border-radius: 2%;
+}
+
+.portifolio{
+    width: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 2%;
+    background-color: #084811;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2%;
+    display: list-item;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #084811;
+    margin: 0%;
+}
+
+
+
