@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -38,12 +43,11 @@ header{
 
 .logo img {
     margin: auto;
-    width:70%;
-    height: 90%;
+    width:70px;
+    height: 90px;
 }
 
 ul{
-    
     margin: 0%;
     padding: 0.5%;
     list-style-type: none;
@@ -61,13 +65,13 @@ li a{
 }
 
 li a:hover{
-    background-color:#bbc981;
+    background-color:#87ce74;
     color: black;
     transition: 0.4s;
 }
 
 .ativo{
-    background-color:#ffffff;
+    background-color:#e1e7df;
     color: black;
 }
 
@@ -75,35 +79,222 @@ main{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-color: #ffffff;
+    background-color:#e1e7df;
 }
 
-.conteudo{
-    background-color:#bbc981;
+.conteudo1{
+    background-color:#e1e7df;
     width: 50%;
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 4%;
-    border-radius: 2%;
+    border-radius: 2px;
 }
 
-.portifolio{
+#botaocad {
+    background-color:#235213;
+    text-decoration: none;
+    color:#dae0d9;
+    text-align: center;
+    padding: 1%;
+    font-size: 0.9em;
+    border-radius: 4px;
+
+}
+
+#botaocad:hover{
+    box-shadow:0 8px 10px 0 rgba(0,0,0,0.24),0 10px 30px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    background-color:#235213;
+    color:#adf296;
+    transition: 0.5s;
+}
+
+#if{
+    color: #1d570a;
+}
+
+.portifolio1{
     width: 25%;
     margin-top: 2%;
     margin-bottom: 2%;
-    border-radius: 2%;
+    border-radius: 2px;
     background-color: #084811;
+    justify-items: center;
+}
+
+.portifolio1 img{
+    width: 100%;
 }
 
 footer{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
     padding: 2%;
     display: list-item;
     justify-content: space-between;
     text-align: center;
     background-color: #084811;
     margin: 0%;
+    color: #ffffff;
+}
+
+.conteudo2{
+    width: 100%;
+    padding: 4%;
 }
 
 
 
+
+
+
+.formulario{
+    padding: 5%;
+    margin: 0;
+    width: auto;
+    text-align: left;
+    background-color:#3a682b;
+    color: rgb(0, 0, 0);
+  }
+  
+  form{
+    padding: 1%;
+  }
+  
+  .informacoes1{
+    display: flex;
+    justify-content: space-between
+  }
+  
+  .informacoes2{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .informacoes3{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .informacoes4{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .informacoes5{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 1px solid rgb(21, 56, 8)
+      background-color: #8cb185;
+      color: rgb(21, 56, 8);
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+      input[type=date], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 1px solid rgb(21, 56, 8)
+      background-color: #2b6121;
+      color: rgb(21, 56, 8);
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=email], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 1px solid rgb(21, 56, 8);
+      background-color: #2b6121;
+      color: rgb(21, 56, 8);
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+input[type=tel], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 1px solid rgb(21, 56, 8);
+      background-color: #2b6121;
+      color: beige;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+  
+ input[type=submit], input[type=reset] {
+      background-color:#002608;
+      border: none;
+      color: beige;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteudo3{
+    background-color: #dae0d9;
+    width: 80%;
+    overflow-x: auto;
+    margin: 4%;
+}
+
+#tabela{
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+#tabela td, #tabela th {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+#tabela th {
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    background-color:#528242;
+    color: white;
+    font-size: 0.9em;
+}
+
+#tabela td {
+    font-size: 0.8em;
+    background-color: #d0d8cd;
+}
+
+tr:hover {
+    background-color:#3cef00 ;
+}
+
+
+  
