@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Cadastramento</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagem/logo-if-2.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -18,9 +19,9 @@
 
     <ul>
         <li>
-            <a class="ativo" href="index.html">Home</a>
-            <a href="cadaluno.html">Área de Cadastramento de Alunos</a>
-            <a href="listaaluno.html">Alunos Cadastrados</a>
+            <a class="ativo" href="index.php">Home</a>
+            <a href="cadaluno.php">Área de Cadastramento de Alunos</a>
+            <a href="listaaluno.php">Alunos Cadastrados</a>
         </li>
     </ul>
 
@@ -35,7 +36,7 @@
                     aqui seus dados serão coletados e organizados juntamente à outros estudantes do campus
                 </p><br>
 
-                <a id="botaocad" href="cadaluno.html">Quero me cadastrar</a>
+                <a id="botaocad" href="cadaluno.php">Quero me cadastrar</a>
 
                 <p><br>
                     O <strong>Instituto Federal de Educação, Ciência e Tecnologia Baiano (IF Baiano) - Campus Guanambi</strong> 

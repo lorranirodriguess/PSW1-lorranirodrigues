@@ -88,7 +88,6 @@ main{
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 4%;
-    border-radius: 2px;
 }
 
 #botaocad {
@@ -118,9 +117,8 @@ main{
     width: 25%;
     margin-top: 2%;
     margin-bottom: 2%;
-    border-radius: 2px;
-    background-color: #084811;
-    justify-items: center;
+    background-color:#e1e7df;
+    justify-items: center; 
 }
 
 .portifolio1 img{
@@ -145,121 +143,185 @@ footer{
 }
 
 
-
-
-
-
 .formulario{
     padding: 5%;
     margin: 0;
     width: auto;
-    text-align: left;
-    background-color:#3a682b;
+    background-color:#7ba46d;
     color: rgb(0, 0, 0);
-  }
+}
+
+.voltar{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000000;
+}
+
   
-  form{
+form{
     padding: 1%;
-  }
+}
   
-  .informacoes1{
-    display: flex;
-    justify-content: space-between
-  }
-  
-  .informacoes2{
+.informacoes1{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  .informacoes3{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .informacoes4{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  
-  .informacoes5{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  input[type=text], select {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      border: 1px solid rgb(21, 56, 8)
-      background-color: #8cb185;
-      color: rgb(21, 56, 8);
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
+#id1{
+    width: 55%;
+}
 
-      input[type=date], select {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      border: 1px solid rgb(21, 56, 8)
-      background-color: #2b6121;
-      color: rgb(21, 56, 8);
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
+#grupo0{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
 
-    input[type=email], select {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      border: 1px solid rgb(21, 56, 8);
-      background-color: #2b6121;
-      color: rgb(21, 56, 8);
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
+#id2{
+    width: 45%;
+}
+
+#id3{
+    width: 50%;
+}
+  
+.informacoes2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#id4{
+    width: 55%;
+}
+
+#id5{
+    width: 40%;
+}
+
+.informacoes3{
+    display: flex;
+    justify-content: space-between;
+}
+
+#grupo1{
+    justify-content: space-between;
+    display: flex;
+    width: 55%;
+}
+
+#id6{
+    width: 60%;
+}
+
+#id7{
+    width: 35%;
+}
+
+#grupo2{
+    justify-content: space-between;
+    display: flex;
+    width: 40%;
+}
+
+#id8{
+    width: 70%;
+}
+
+#id9{
+    width: 25%;
+}
+
+.classe1{
+    background: #bef2c5;
+    padding: 1%;
+    text-align: center;
+    font-weight: bold;
+}
+
+label{
+    font-weight: 700;
+}
+  
+.informacoes4{
+    background-color: #bef2c5;
+    width: 100%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.informacoes5{
+    background-color: #bef2c5;
+    width: 100%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grupo3{
+    border: 1px solid rgb(21, 56, 8);
+    margin-top: 2%;
+}
+
+.envio{
+    margin-top: 2%;
+    display: flex;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid beige;
+    background-color:rgb(21, 56, 8);
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid beige;
+    background-color:rgb(21, 56, 8);
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid beige;
+    background-color:rgb(21, 56, 8);
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
     
 input[type=tel], select {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      border: 1px solid rgb(21, 56, 8);
-      background-color: #2b6121;
-      color: beige;
-      border-radius: 4px;
-      box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid beige;
+    background-color:rgb(21, 56, 8);
+    color: beige;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
   
  input[type=submit], input[type=reset] {
-      background-color:#002608;
-      border: none;
-      color: beige;
-      padding: 16px 32px;
-      text-decoration: none;
-      margin: 4px 2px;
-      cursor: pointer;
+    background-color:#002608;
+    border: none;
+    color: beige;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .conteudo3{
     background-color: #dae0d9;
@@ -275,6 +337,7 @@ input[type=tel], select {
 
 #tabela td, #tabela th {
     border: 1px solid #000000;
+    text-transform: uppercase;
     padding: 8px;
     text-align: center;
 }

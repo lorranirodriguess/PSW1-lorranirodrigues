@@ -5,26 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alunos Cadastrados</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagem/logo-if-2.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <div class="cabecalho"> 
-            <h5>Instituto Federal de Educação, Ciência e Tecnologia Baiano</h5> 
-            <h1>Campus Guanambi</h1>
+            <h5>Instituto Federal de Educação, Ciência e Tecnologia Baiano - Campus Guanambi</h5> 
+            <h1>Sistema de Cadastramento</h1>
         </div>
         <div class="logo"> <img src="imagem/logo-if.png" alt="Logo IF"></div>
     </header>
 
-
     <ul>
         <li>
-            <a href="index.html">Home</a>
-            <a href="cadaluno.html">Área de Cadastramento de Alunos</a>
-            <a class="ativo" href="listaaluno.html">Alunos Cadastrados</a>
+            <a href="index.php">Home</a>
+            <a href="cadaluno.php">Área de Cadastramento de Alunos</a>
+            <a class="ativo" href="listaaluno.php">Alunos Cadastrados</a>
         </li>
     </ul>
-
-
 
     <main>
         <div class="conteudo3">
@@ -45,7 +43,7 @@
                     <td>15/06/2007</td>
                     <td>Ibiassucê</td>
                     <td>BA</td>
-                    <td>Matemática<br>Português<br>Biologia</td>
+                    <td>Matemática<br><br>Português<br><br>Biologia</td>
                     <td>Biologia</td>
                 </tr>
 
@@ -55,11 +53,30 @@
                     <td>15/06/2007</td>
                     <td>Ibiassucê</td>
                     <td>BA</td>
-                    <td>Matemática<br>Português<br>Biologia</td>
+                    <td>Matemática<br><br>Português<br><br>Biologia</td>
                     <td>Biologia</td>
                 </tr>
+
+                <tr>
+                    <td> <?php echo $_POST['nome']?></td>
+                    <td><?php echo $_POST['cpf']?></td>
+                    <td><?php echo $_POST['data']?></td>
+                    <td><?php echo $_POST['cidade']?></td>
+                    <td><?php echo $_POST['uf']?></td>
+                    <td>
+                        <?php echo $_POST['materia1']?><br>
+                        <?php echo $_POST['materia2']?><br>
+                        <?php echo $_POST['materia3']?><br>
+                        <?php echo $_POST['materia4']?><br>
+                        <?php echo $_POST['materia5']?><br>
+                    </td>
+                    <td><?php echo $_POST['favorita']?></td>
+                </tr>
+
             </table>
+            <a class="voltar" href="cadaluno.php">&larr; Voltar</a>
         </div>
+        
     </main>
 
 
