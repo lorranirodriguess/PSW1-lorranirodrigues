@@ -39,8 +39,8 @@
 
                 <tr>
                     <td>Lorrani Rodrigues Costa</td>
-                    <td>11122233344</td>
-                    <td>15/06/2007</td>
+                    <td>111.222.333-44</td>
+                    <td>2007-06-15</td>
                     <td>Ibiassucê</td>
                     <td>BA</td>
                     <td>Matemática<br><br>Português<br><br>Biologia</td>
@@ -49,8 +49,28 @@
 
                 <tr>
                     <td>Lorrani Rodrigues Costa</td>
-                    <td>11122233344</td>
-                    <td>15/06/2007</td>
+                    <td>111.222.333-44</td>
+                    <td>2007-06-15</td>
+                    <td>Ibiassucê</td>
+                    <td>BA</td>
+                    <td>Matemática<br><br>Português<br><br>Biologia</td>
+                    <td>Biologia</td>
+                </tr>
+
+                <tr>
+                    <td>Lorrani Rodrigues Costa</td>
+                    <td>111.222.333-44</td>
+                    <td>2007-06-15</td>
+                    <td>Ibiassucê</td>
+                    <td>BA</td>
+                    <td>Matemática<br><br>Português<br><br>Biologia</td>
+                    <td>Biologia</td>
+                </tr>
+
+                <tr>
+                    <td>Lorrani Rodrigues Costa</td>
+                    <td>111.222.333-44</td>
+                    <td>2007-06-15</td>
                     <td>Ibiassucê</td>
                     <td>BA</td>
                     <td>Matemática<br><br>Português<br><br>Biologia</td>
@@ -72,13 +92,11 @@
                     </td>
                     <td><?php echo $_POST['favorita']?></td>
                 </tr>
-
             </table>
             <a class="voltar" href="cadaluno.php">&larr; Voltar</a>
         </div>
         
     </main>
-
 
     <footer>
         <div id="rodape">
@@ -89,9 +107,5 @@
         </div>
     </footer>
 
-
-
-    
-    
 </body>
 </html>

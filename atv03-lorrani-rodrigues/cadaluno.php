@@ -45,7 +45,7 @@
                             </div>
                             <div id="id3">
                                 <label for="cpf">CPF:</label><br>
-                                <input type="text" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX" pattern="\d{3}\.\d{3}\.\d{3}\-\d{2}" required><br><br>
+                                <input type="text" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required><br><br>
                             </div>
                         </div>
                     </div>
@@ -80,83 +80,83 @@
                                 <input type="text" id="cidade" name="cidade" placeholder="Ex: Caculé" required>
                             </div>
                             <div id="id9">
-                                    <label for="uf">UF:</label>
-                                    <select  id="uf" name="uf" required>
-                                        <option value="AC">AC</option>
-                                        <option value="AL">AL</option>
-                                        <option value="AP">AP</option>
-                                        <option value="AM">AM</option>
-                                        <option value="BA">BA</option>
-                                        <option value="CE">CE</option>
-                                        <option value="DF">DF</option>
-                                        <option value="ED">ES</option>
-                                        <option value="GO">GO</option>
-                                        <option value="MA">MA</option>
-                                        <option value="MT">MT</option>
-                                        <option value="MS">MS</option>
-                                        <option value="MG">MG</option>
-                                        <option value="PA">PA</option>
-                                        <option value="PB">PB</option>
-                                        <option value="PR">PR</option>
-                                        <option value="PE">PE</option>
-                                        <option value="PI">PI</option>
-                                        <option value="RJ">RJ</option>
-                                        <option value="RN">RN</option>
-                                        <option value="RS">RS</option>
-                                        <option value="RO">RO</option>
-                                        <option value="RR">RR</option>
-                                        <option value="SC">SC</option>
-                                        <option value="SP">SP</option>
-                                        <option value="SE">SE</option>
-                                        <option value="TO">TO</option>
-                                    </select><br>
+                                <label for="uf">UF:</label>
+                                <select  id="uf" name="uf" required>
+                                    <option value="AC">AC</option>
+                                    <option value="AL">AL</option>
+                                    <option value="AP">AP</option>
+                                    <option value="AM">AM</option>
+                                    <option value="BA">BA</option>
+                                    <option value="CE">CE</option>
+                                    <option value="DF">DF</option>
+                                    <option value="ED">ES</option>
+                                    <option value="GO">GO</option>
+                                    <option value="MA">MA</option>
+                                    <option value="MT">MT</option>
+                                    <option value="MS">MS</option>
+                                    <option value="MG">MG</option>
+                                    <option value="PA">PA</option>
+                                    <option value="PB">PB</option>
+                                    <option value="PR">PR</option>
+                                    <option value="PE">PE</option>
+                                    <option value="PI">PI</option>
+                                    <option value="RJ">RJ</option>
+                                    <option value="RN">RN</option>
+                                    <option value="RS">RS</option>
+                                    <option value="RO">RO</option>
+                                    <option value="RR">RR</option>
+                                    <option value="SC">SC</option>
+                                    <option value="SP">SP</option>
+                                    <option value="SE">SE</option>
+                                    <option value="TO">TO</option>
+                                </select><br>
                             </div>
                         </div>
                     </div>
 
-                        <div class="grupo3">
-                            <div class="classe1"><p>Disciplinas Cursadas:<br></p></div>
+                    <div class="grupo3">
+                        <div class="classe1"><p>Disciplinas Cursadas:<br></p></div>
 
-                            <div class="informacoes4">
-                                <input type="checkbox" id="materia1" name="materia1" value="Português">
-                                <label for="materia1">Português</label><br>
-                                <input type="checkbox" id="materia2" name="materia2" value="Matemática">
-                                <label for="materia2">Matemática</label><br>
-                                <input type="checkbox" id="materia3" name="materia3" value="Biologia">
-                                <label for="materia3">Biologia</label><br>
-                                <input type="checkbox" id="materia4" name="materia4" value="História">
-                                <label for="materia4">História</label><br>
-                                <input type="checkbox" id="materia5" name="materia5" value="Geografia">
-                                <label for="materia5">Geografia</label><br>
-                            </div>
+                        <div class="informacoes4">
+                            <input type="checkbox" id="materia1" name="materia1" value="Português">
+                            <label for="materia1">Português</label><br>
+                            <input type="checkbox" id="materia2" name="materia2" value="Matemática">
+                            <label for="materia2">Matemática</label><br>
+                            <input type="checkbox" id="materia3" name="materia3" value="Biologia">
+                            <label for="materia3">Biologia</label><br>
+                            <input type="checkbox" id="materia4" name="materia4" value="História">
+                            <label for="materia4">História</label><br>
+                            <input type="checkbox" id="materia5" name="materia5" value="Geografia">
+                            <label for="materia5">Geografia</label><br>
                         </div>
+                    </div>
 
-                        <div class="grupo3">
-                            <div class="classe1"><p>Disciplina Preferida:<br></p></div> 
+                    <div class="grupo3">
+                        <div class="classe1"><p>Disciplina Preferida:<br></p></div> 
 
-                            <div class="informacoes5">  
-                                <input type="radio" id="favorita1" name="favorita" value="Português">
-                                <label for="favorita1">Português</label><br>
-                                <input type="radio" id="favorita2" name="favorita" value="Matemática">
-                                <label for="materia2">Matemática</label><br>
-                                <input type="radio" id="favorita3" name="favorita" value="Biologia">
-                                <label for="materia3">Biologia</label><br>
-                                <input type="radio" id="favorita4" name="favorita" value="História">
-                                <label for="materia4">História</label><br>
-                                <input type="radio" id="mfavorita5" name="favorita" value="Geografia">
-                                <label for="materia5">Geografia</label><br>      
-                            </div>
+                        <div class="informacoes5">  
+                            <input type="radio" id="favorita1" name="favorita" value="Português">
+                            <label for="favorita1">Português</label><br>
+                            <input type="radio" id="favorita2" name="favorita" value="Matemática">
+                            <label for="materia2">Matemática</label><br>
+                            <input type="radio" id="favorita3" name="favorita" value="Biologia">
+                            <label for="materia3">Biologia</label><br>
+                            <input type="radio" id="favorita4" name="favorita" value="História">
+                            <label for="materia4">História</label><br>
+                            <input type="radio" id="mfavorita5" name="favorita" value="Geografia">
+                            <label for="materia5">Geografia</label><br>      
                         </div>
+                    </div>
 
 
-                        <div class="envio">
-                            <div><input type="reset" value="Apagar"></div>
-                            <div><input type="submit" value="Salvar"></div>
-                        </div>
+                    <div class="envio">
+                        <div><input type="reset" value="Apagar"></div>
+                        <div><input type="submit" value="Salvar"></div>
+                    </div>
                 </form>
             </div>
 
-        <a class="voltar" href="index.php">&larr; Voltar</a>
+            <a class="voltar" href="index.php">&larr; Voltar</a>
 
         </div>
     </main>

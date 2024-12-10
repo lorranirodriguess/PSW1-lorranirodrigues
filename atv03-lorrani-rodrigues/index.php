@@ -55,7 +55,6 @@
         </div>
     </main>
 
-
     <footer>
         <div id="rodape">
             <p>
@@ -65,9 +64,5 @@
         </div>
     </footer>
 
-
-
-    
-    
 </body>
 </html>
