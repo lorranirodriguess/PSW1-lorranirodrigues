@@ -1,0 +1,76 @@
+
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #d15400;
+    height: 100vh;
+}
+
+.interface-limite{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;  
+}
+
+header > .interface-limite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color:#f6c37c;
+    display:inline-block;   
+}
+
+header a:hover{
+    color: #fff;
+    transform:scale(1.05);
+    transition: 0.3s;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.botao-contato{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(251, 196, 108, 1);
+    border: 0;
+    border-radius: 30px;
+}
+
+.botao-contato:hover{
+    box-shadow: 0px 0px 8px rgba(251, 196, 108, 1);
+}
+
+/*ESTILO DO TOPO DO PORTFÓLIO*/
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site.flex.texto-inicial{
+   align-items: center; 
+   justify-content: center;
+}
+

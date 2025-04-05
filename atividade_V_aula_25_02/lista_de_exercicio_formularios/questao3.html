@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3</title>
+</head>
+<style>body {
+    font-family: Arial, sans-serif;
+    background-color: #f4fff4;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    background: #e7f8e7;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.title {
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid green;
+}
+
+.box {
+    border: 1px solid green;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f8fff8;
+}
+
+legend {
+    font-weight: bold;
+    background-color: lightgreen;
+    border: 1px solid green;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.half {
+    width: 48%;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.section label {
+    width: 120px;
+    font-weight: bold;
+}
+
+.section input,
+.section select,
+.section textarea {
+    flex: 1;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: vertical;
+    height: 60px;
+    width: 100%;
+}
+
+.buttons {
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    background-color: #f4f8f4;
+    border: 2px solid green;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.clear {
+    background-color: #f4f8f4;
+}
+
+button:hover{
+    background-color:rgb(146, 174, 165) ;
+}
+</style>
+<body>
+    <div class="container">
+        <fieldset class="box">
+            <legend>Cadastro Geral</legend>
+        
+
+        <div class="row"> 
+            <fieldset class="box half">
+                <legend>Dados pessoais</legend>
+                <div class="section">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="section">
+                    <label for="profissao">Profissão:</label>
+                    <select id="profissao" name="profissao">
+                        <option value="">Sua profissão</option>
+                        <option value="engenheiro">Engenheiro</option>
+                        <option value="médico">Médico</option>
+                        <option value="professor">Professor</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset class="box half">
+                <legend>Localização</legend>
+                <div class="section">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="section">
+                    <label for="rua">Rua:</label>
+                    <input type="text" id="rua" name="rua">
+                </div>
+            </fieldset>
+        </div>
+
+        <fieldset class="box">
+            <legend>Faixa etária</legend>
+            <div class="radio-group">
+                <div class="column">
+                    <div><input type="radio" id="ate20" name="idade" value="ate20">
+                    <label for="ate20">até 20 anos</label></div>
+
+                    <div><input type="radio" id="20a30" name="idade" value="20a30">
+                    <label for="20a30">mais de 20 até 30 anos</label></div>
+
+                    <div><input type="radio" id="30a40" name="idade" value="30a40">
+                    <label for="30a40">mais de 30 até 40 anos</label></div>
+                </div>
+                <div class="column">
+                    <div><input type="radio" id="40a50" name="idade" value="40a50">
+                    <label for="40a50">mais de 40 até 50 anos</label></div>
+
+                    <div><input type="radio" id="50a60" name="idade" value="50a60">
+                    <label for="50a60">mais de 50 até 60 anos</label></div>
+
+                    <div><input type="radio" id="mais60" name="idade" value="mais60">
+                    <label for="mais60">mais de 60</label></div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="box">
+            <legend>Esportes que pratica</legend>
+            <div class="checkbox-group">
+                <div class="column">
+                    <div><input type="checkbox" id="futebol_campo" name="esporte" value="futebol_campo">
+                    <label for="futebol_campo">Futebol de campo</label></div>
+
+                    <div><input type="checkbox" id="futebol_salao" name="esporte" value="futebol_salao">
+                    <label for="futebol_salao">Futebol de salão</label></div>
+
+                    <div><input type="checkbox" id="futebol_society" name="esporte" value="futebol_society">
+                    <label for="futebol_society">Futebol society</label></div>
+
+                    <div><input type="checkbox" id="volei_quadra" name="esporte" value="volei_quadra">
+                    <label for="volei_quadra">Vôlei de quadra</label></div>
+
+                    <div><input type="checkbox" id="volei_praia" name="esporte" value="volei_praia">
+                    <label for="volei_praia">Vôlei de praia</label></div>
+
+                    <div><input type="checkbox" id="natacao_piscina" name="esporte" value="natacao_piscina">
+                    <label for="natacao_piscina">Natação em piscina</label></div>
+
+                    <div><input type="checkbox" id="natacao_mar" name="esporte" value="natacao_mar">
+                    <label for="natacao_mar">Natação em mar aberto</label></div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="box">
+            <legend>Comentário</legend>
+            <div class="section" class="checkbox-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+            </div>
+        </fieldset>
+    </fieldset>
+        <div class="buttons">
+            <button type="submit">Enviar</button>
+            <button type="reset" class="clear">Limpar</button>
+        </div>
+    </div>
+</body>
+</html>
