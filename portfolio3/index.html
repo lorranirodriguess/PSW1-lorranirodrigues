@@ -11,6 +11,10 @@
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagens/logo1.png" type="image/x-icon">
+    
+    <script src="navegacao.js" defer></script>
+
     <title>Lorrani Rodrigues</title>
 </head>
 <body>
@@ -20,26 +24,46 @@
     <header>
         <div class="interface-limite" >
             <div class="logo">
-                <a href="#"> <img class="logo1" src="imagens/logo1.png" alt="logo"  style="width: 60px;"></a>
+                <img class="logo1" src="imagens/logo1.png" alt="logo"  style="width: 60px;">
             </div> <!--logo-->
-            <nav>
+            <nav class="navegacao">
                 <ul>
-                    <li> <a href="#">Inicio</a></li>
-                    <li> <a href="#">Sobre mim</a></li>
-                    <li> <a href="#">Serviços</a></li>
-                    <li> <a href="#">Projetos</a></li>
+                    <li> <a href="#inicio">Inicio</a></li>
+                    <li> <a href="#especialidades">Especialidades</a></li>
+                    <li> <a href="#sobre-mim">Sobre</a></li>
+                    <li> <a href="#portfolio">Galeria</a></li>
                 </ul>
             </nav>
 
-            <div>
-                <a href="#">
-                    <button class="botao-contato">Contato</button>
+            <div class="botao-contato">
+                <a href="#contato">
+                    <button>Contato</button>
                 </a>
             </div> <!--botao-contato-->
+
+            <div class="abrir-navegacao" id="botao-abrir-navegacao">
+                <i class="bi bi-list"></i>
+            </div><!--abrir-navegacao-->
+
+            <div class="navegacao-mobile" id="navegacao-mobile">
+                <div class="botao-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li> <a href="#inicio">Inicio</a></li>
+                        <li> <a href="#especialidades">Especialidades</a></li>
+                        <li> <a href="#sobre-mim">Sobre</a></li>
+                        <li> <a href="#portfolio">Galeria</a></li>
+                        <li> <a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--navegacao-mobile-->
+
         </div> <!--interface-limite-->
     </header>
-    <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site" id="inicio">
             <div class="interface-limite">
                 <div class="flex">
 
@@ -48,21 +72,21 @@
                         <p>Aqui você vai encontrar um pouco do que eu faço com paixão e dedicação. 
                             <br>Vamos explorar juntos?
                         </p>
-                        <div>
-                            <a href="#"><button class="botao-contato">Entre em contato</button></a>
+                        <div class="botao-contato">
+                            <a href="#"><button>Entre em contato</button></a>
                         </div>
                     </div><!--texto-inicial-->
 
                     <div class="imagem-inicial">
-                        <img class="imginicial" src="imagens/img-topo.jpg" alt="imagem de Lorrani">
+                        <img src="imagens/img-topo.jpg" alt="imagem de Lorrani">
                     </div><!--imagem-inicial-->
 
                 </div> <!--flex-->
             </div> <!--interface-limite-->
         </section> <!--topo-do-site-->
-        <section class="especialidades">
+        <section class="especialidades" id="especialidades">
             <div class="interface-limite">
-                <h2 class="titulo">ESPECIALIDADES</h2>
+                <h2 class="titulo">MINHAS ESPECIALIDADES</h2>
                <div class="flex">
                     <div class="especialidades-box">
                         <i class="bi bi-camera"></i>
@@ -82,7 +106,7 @@
                </div> <!--flex-->
             </div> <!--interface-limite-->
         </section> <!--especialidades-->
-        <section class="sobre-mim">
+        <section class="sobre-mim" id="sobre-mim">
             <div class="interface-limite">
                 <div class="flex">
                    <div class="img-sobremim">
@@ -100,16 +124,16 @@
                             earum sed consequatur repellat dolor enim eveniet exercitationem 
                             tempore harum, soluta, voluptates quas!
                         </p>
-                        <div>
-                            <a href="#"><button class="botao-social"><i class="bi bi-instagram"></i></button></a>
-                            <a href="#"><button class="botao-social"><i class="bi bi-tiktok"></i></button></a>
-                            <a href="#"><button class="botao-social"><i class="bi bi-youtube"></i></button></a>
+                        <div class="botao-social">
+                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="#"><button><i class="bi bi-tiktok"></i></button></a>
+                            <a href="#"><button><i class="bi bi-youtube"></i></button></a>
                         </div>
                    </div> <!--texto-sobremim-->
                 </div><!--flex-->
             </div> <!--interface-limite-->
         </section> <!--sobre-mim-->
-        <section class="portfolio" >
+        <section class="portfolio" id="portfolio">
             <div class="interface-limite" >
                 <h2 class="titulo">MEU PORTFÓLIO</h2>
                 <div class="flex">
@@ -120,12 +144,41 @@
                         <div class="overlay">MINHA LOJA ONLINE.</div>
                     </div><!--img-portfolio-->
                     <div class="img-portfolio" style="background-image: url(imagens/imagens-make.svg);">
-                        <div class="overlay">MEU TRABALHO COMO MAQUIADORA.</div>
+                        <div class="overlay">MEUS TRABALHOS COMO MAQUIADORA.</div>
                     </div><!--img-portfolio-->
                 </div><!--flex-->
             </div><!--interface-limite-->
         </section><!--prtfolio-->
-    </main>
-    
+        <section class="formulario" id="contato">
+            <div class="interface-limite">
+                <h2 class="titulo">FALE COMIGO</h2>
+                <form action="">
+                    <input type="text" placeholder="Seu nome completo:" required>
+                    <input type="text" placeholder="Seu e-mail:" required>
+                    <input type="tel" placeholder="Seu número:" required>
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="botao-envio"> <input type="submit" value="ENVIAR"> </div>
+                </form>
+            </div><!--interface-limite-->
+        </section><!--formulario-->
+    <footer>
+        <div class="interface-limite">
+            <div class="linha-footer borda">
+               <div class="flex">
+                    <div class="logo-footer">
+                        <img src="imagens/logo2.png" alt="logo 2">
+                    </div>
+                    <div class="botao-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-tiktok"></i></button></a>
+                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                    </div>
+               </div><!--flex-->
+            </div>
+            <div class="linha-footer">
+                <p><i class="bi bi-envelope-fill"> <a href="mailto:lorranirodrigues0@gmail.com">lorranirodrigues0@gmail.com</a></i></p>
+            </div>
+        </div><!--interface-limite-->
+    </footer>
 </body>
 </html>
